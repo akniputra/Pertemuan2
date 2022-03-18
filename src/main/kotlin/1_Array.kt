@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-//Array
+//Array adalah koleksi data yang sejenis untuk membuat array sebuah array
     var arrA = arrayOf<Int>()
     arrA += 34
     println(arrA[0])
