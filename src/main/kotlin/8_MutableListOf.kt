@@ -8,6 +8,6 @@ fun main(args: Array<String>) {
     println(numbers)
     val numbersStr = mutableListOf("one", "two", "three", "four")
     numbersStr.add("five") // this is OK
-//numbersStr = mutableListOf("six", "seven") // compilation error
+//numbersStr = mutableListOf("six", "seven") // compilation eror
     println(numbersStr)
 }
