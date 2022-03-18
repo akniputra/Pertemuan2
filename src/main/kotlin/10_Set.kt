@@ -8,6 +8,6 @@ fun main() {
 //The default implementation of Set – LinkedHashSet – preserves the order of elements insertion
     println(numbers.first() == numbersBackwards.first())
     println(numbers.first() == numbersBackwards.last())
-    val strings = hashSetOf("a", "b", "c", "c") //hash set value unik
+    val strings = hashSetOf("a", "b", "c", "c") //hash set value unikk
     println("My Set Values are"+strings)
 }
