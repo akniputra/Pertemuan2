@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     x[0] = x[1] + x[2]
     x.forEach { print(it.toString() + ' ') }
     print('\n')
-// Array of int of size 5 with values [0, 0, 0, 0, 0]
+
     val byteArray = ByteArray(5)
     byteArray.forEach { print(it.toString() + ' ') }
     print('\n')
